@@ -1,14 +1,18 @@
 # TODO: inside main.py we have created whole API (backend)
 # FIXME: and inside app.py we have created whole streamlit (frontend)
 # streamlit will give us url : helping to run through it 
-
+# NOTE: how to run -->
+# 1.  streamlit run ./app.py
+#              OR
+# 2. go to render --> events --> manual deploy --> 
 import requests
 import streamlit as st
 
 # =============================
 # CONFIG
 # =============================
-API_BASE = "https://movie-rec-466x.onrender.com" or "http://127.0.0.1:8000"
+# API_BASE = "https://movie-recommendation-system-1-6vtj.onrender.com/" or "http://127.0.0.1:8000"
+API_BASE = "http://127.0.0.1:8000"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
