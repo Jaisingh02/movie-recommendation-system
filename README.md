@@ -1,4 +1,4 @@
-# Content-Based Movie Recommendation System
+## Content-Based Movie Recommendation System
 
 A machine learning recommendation engine built in Python, utilizing TF-IDF vectorization and Cosine Similarity to recommend movies based on plot descriptions, genres, and metadata. It features a dual-interface architecture: a high-performance **FastAPI REST API** backend and an interactive **Streamlit dashboard** frontend.
 
